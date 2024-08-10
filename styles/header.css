@@ -1,0 +1,100 @@
+.header
+{
+    height: 100px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
+
+    z-index: 99;
+}
+
+.site-title{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    margin: 0;
+    align-self: self-start;
+}
+
+
+.site-logo
+{
+    height: 90px;
+}
+
+.header-left-section
+{
+    display: flex;
+    align-items: center;
+}
+
+.header-middle-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    flex: 8;
+}
+
+.header-middle-top
+{
+    padding-top: 20px;
+    align-items: left;
+    display: flex;
+}
+
+.header-middle-bottom
+{
+    align-items: left;
+    display: flex;
+}
+
+.header-spacer
+{
+    flex: 1;
+}
+
+.navigation {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;    
+    padding-right: 10px;
+
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+    border-radius: 2px;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    transition: 
+        background-color 0.25s, 
+        color 0.25s, 
+        border-radius 0.5s,
+        font-weight 0.25s,
+        padding-left 0.5s,
+        padding-right 0.5s;
+}
+
+.navigation:hover {
+    background-color: #11402F;
+    color: beige;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
