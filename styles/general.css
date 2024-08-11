@@ -2,19 +2,17 @@ body {
     margin: 0;
     margin-top: 90px;
     padding-bottom: 2000px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     height: 100%;
 }
 
 html {
     height: 100%;
 }
-  
+
 .parallax-1 {
     background-image: url('https://www.state.gov/wp-content/uploads/2019/04/Saudi-Arabia-2560x1248.jpg');
-
     height: 80vh;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,9 +23,7 @@ html {
 
 .parallax-2 {
     background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1938189982v2.jpg');
-
     height: 100vh;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,35 +40,30 @@ html {
     z-index: 10;
 }
 
-.site-intro-container
-{
+.site-intro-container {
     padding-top: 50px;
     width: 60%;
     display: flex;
     flex-direction: column;
     height: 100%;
     margin-left: 100px;
-
 }
 
-.site-intro-title
-{
+.site-intro-title {
     color: #11402F;
     font-size: 6rem;
     font-weight: 1000;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-} 
+}
 
-.site-intro-description
-{
-    color: white;
+.site-intro-description {
+    color: #11402F;
     font-size: 2rem;
     font-weight: 550;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.join-button
-{
+.join-button {
     margin-top: 30px;
     margin-left: 30px;
     background-color: black;
@@ -83,18 +74,15 @@ html {
     font-size: 1.4rem;
     font-weight: 600;
     border-radius: 10px;
-
     transition: 
         margin-top 0.5s,
         margin-left 0.5s,
         background-color 0.5s,
         border-radius 0.5s,
-        box-shadow 0.5s
-        ;
+        box-shadow 0.5s;
 }
 
-.join-button:hover
-{
+.join-button:hover {
     margin-top: 15px;
     margin-left: 15px;
     background-color: #11402F;
@@ -102,12 +90,42 @@ html {
     box-shadow: 15px 15px black;
 }
 
-.site-intro-spacer-1
-{
+.site-intro-spacer-1 {
     flex: 2;
 }
 
-.site-intro-spacer-2
-{
+.site-intro-spacer-2 {
     flex: 5;
+}
+
+@media (max-width: 768px) {
+    .site-intro-container {
+        width: 90%;
+        margin-left: 20px;
+        padding-top: 30px;
+    }
+
+    .site-intro-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .site-intro-description {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .join-button {
+        width: 200px;
+        padding: 15px;
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-top: 20px;
+        align-self: center;
+    }
+
+    .parallax-1, .parallax-2 {
+        background-attachment: scroll;
+        height: 60vh;
+    }
 }
