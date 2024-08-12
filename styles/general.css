@@ -1,8 +1,8 @@
+/* General Styles */
 body {
     margin: 0;
     margin-top: 90px;
-    padding-bottom: 2000px;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
 }
 
@@ -10,34 +10,54 @@ html {
     height: 100%;
 }
 
+/* Parallax Sections */
+.parallax-1, .parallax-2, .parallax-3 {
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
 .parallax-1 {
     background-image: url('https://www.state.gov/wp-content/uploads/2019/04/Saudi-Arabia-2560x1248.jpg');
     height: 80vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
 }
 
 .parallax-2 {
+    margin-top: -60vh;
+    height: 85vh;
     background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1938189982v2.jpg');
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
+}
+
+.parallax-3 {
+    margin-top: -108vh;
+    background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1938189982v2.jpg');
 }
 
 .section-1 {
-    height: 200px;
+    height: 60vh;
     background-color: white;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 10;
+}
+
+.section-2 {
+    height: 60vh;
+    background-color: white;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+    margin-top: 50vh;
+}
+
+.section-3 {
+    height: 60vh;
+    background-color: white;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+    margin-top: 100vh;
 }
 
 .site-intro-container {
@@ -45,13 +65,14 @@ html {
     width: 60%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     height: 100%;
     margin-left: 100px;
 }
 
 .site-intro-title {
     color: #11402F;
-    font-size: 6rem;
+    font-size: 5.5rem;
     font-weight: 1000;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -61,10 +82,11 @@ html {
     font-size: 2rem;
     font-weight: 550;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: -30px;
 }
 
 .join-button {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 30px;
     background-color: black;
     border-width: 0px;
@@ -83,22 +105,38 @@ html {
 }
 
 .join-button:hover {
-    margin-top: 15px;
+    margin-top: -15px;
     margin-left: 15px;
     background-color: #11402F;
     border-radius: 30px;
     box-shadow: 15px 15px black;
 }
 
-.site-intro-spacer-1 {
-    flex: 2;
-}
-
-.site-intro-spacer-2 {
+.site-intro-spacer {
     flex: 5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
+
+    .site-intro-container {
+        width: 90%;
+        padding-top: 30px;
+    }
+
+    .site-intro-title {
+        font-size: 5rem;
+    }
+
+    .site-intro-description {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin-top: 140px;
+    }
+
     .site-intro-container {
         width: 90%;
         margin-left: 20px;
@@ -119,13 +157,16 @@ html {
         width: 200px;
         padding: 15px;
         font-size: 1.2rem;
-        margin-left: 0;
-        margin-top: 20px;
+        margin-left: 0px;
+        margin-top: 0px;
         align-self: center;
     }
 
-    .parallax-1, .parallax-2 {
-        background-attachment: scroll;
-        height: 60vh;
+    .join-button:hover {
+        margin-top: -15px;
+        margin-left: -15px;
+        background-color: #11402F;
+        border-radius: 30px;
+        box-shadow: 15px 15px black;
     }
 }
