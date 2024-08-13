@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.section-1 {
+    background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1938189982v2.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.form-container
+{
+    height: auto;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.264);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.form-title
+{
+    font-size: 3rem;
+    color: #11402F;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+form input
+{
+    height: 50px ;
+    box-sizing: border-box;
+    border-width: 0px;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1rem;
+    margin: 20px;
+    flex: 1;
+    transition: 
+        box-shadow 0.25s,
+        background-color 0.25s
+    ;
+}
+
+.name-container
+{
+    width: 100%;
+    display: flex;
+}
+
+form input:hover
+{
+    border-width: 0px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.484);
+    background-color: antiquewhite;
+}
+
+.input-container, .input-container-3
+{
+    display: flex;
+}
+
+.input-container-2
+{
+    display: none;
+}
+
+form input::placeholder
+{
+    font-size: 1rem;
+    color: #11402F;
+}
+
+form input:focus
+{
+    border-width: 0px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.484);
+    background-color: antiquewhite;
+}
+
+.sr-button
+{
+    height: 50px ;
+    margin: 20px;
+    width: 150px;
+    border-width: 0px;
+    border-radius: 25px;
+    background-color: #11402F;
+    color: antiquewhite;
+    font-size: 1.3rem;
+    transition: 
+        box-shadow 0.25s,
+        background-color 0.25s,
+        color 0.25s
+        ;
+}
+
+.sr-button:hover
+{
+    background-color:antiquewhite;
+    color: #11402F;
+    font-weight: 600;
+}
+
+.sr-button:focus
+{
+    background-color: #11402F;
+    color: antiquewhite;
+}
+
+@media (max-width: 1000px) 
+{
+    .input-container-3
+    {
+        display: none;
+    }
+
+    .input-container-2
+    {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 700px) 
+{
+    .form-container
+    {
+        width: 80%;
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    form input
+    {
+        margin: 10px;
+    }
+
+    .form-title
+    {
+        font-size: 2rem;
+        color: #11402F;
+        font-weight: 600;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .sr-button
+    {
+        margin: 10px;
+    }
+
+}

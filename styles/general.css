@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     margin: 0;
-    margin-top: 90px;
+    margin-top: 140px;
     font-family: 'Roboto', sans-serif;
     height: 100%;
 }
@@ -133,9 +133,6 @@ html {
 }
 
 @media (max-width: 1000px) {
-    body {
-        margin-top: 140px;
-    }
 
     .site-intro-container {
         width: 90%;
@@ -168,5 +165,13 @@ html {
         background-color: #11402F;
         border-radius: 30px;
         box-shadow: 15px 15px black;
+    }
+}
+
+@media (max-width: 550px) 
+{
+    body
+    {
+        margin-top: 70px;
     }
 }
