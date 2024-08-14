@@ -10,6 +10,7 @@
     left: 0;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
     z-index: 99;
+    transition: all 0.5s;
 }
 
 
@@ -19,10 +20,12 @@
     margin: 0;
     margin-left: 10px;
     align-self: flex-start;
+    transition: all 0.5s;
 }
 
 .site-logo {
     height: 100px;
+    transition: all 0.5s;
 }
 
 .header-left-section {
@@ -36,12 +39,14 @@
     justify-content: space-between;
     margin-left: 20px;
     flex: 8;
+    transition: all 0.5s;
 }
 
 .header-middle-top {
     padding-top: 20px;
     display: flex;
     align-items: flex-start;
+    transition: all 0.5s;
 }
 
 .header-spacer {
@@ -99,6 +104,7 @@ nav a:hover
     right: 0px;
     height: 100vh;
     width: 250px;
+    padding-left: 20px;
     z-index: 999;
     background-color: rgba(255, 255, 255, 0.512);
     backdrop-filter: blur(10px);
@@ -108,6 +114,7 @@ nav a:hover
     align-items: flex-start;
     justify-content: flex-start;
     padding-top: 30px;
+    transition: all 0.5s;
 }
 
 
@@ -138,7 +145,9 @@ nav a:hover
         display: none;
     }
     .sidebar{
-        width: 100%;
+        left: 0;
+        width: auto;
+        padding-left: 40px;
     }
 }
  

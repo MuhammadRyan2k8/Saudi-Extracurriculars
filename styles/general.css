@@ -21,6 +21,9 @@ html {
 .parallax-1 {
     background-image: url('https://www.state.gov/wp-content/uploads/2019/04/Saudi-Arabia-2560x1248.jpg');
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .parallax-2 {
@@ -62,12 +65,11 @@ html {
 
 .site-intro-container {
     padding-top: 50px;
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 100%;
-    margin-left: 100px;
 }
 
 .site-intro-title {
@@ -119,7 +121,7 @@ html {
 @media (max-width: 1500px) {
 
     .site-intro-container {
-        width: 90%;
+        width: 80%;
         padding-top: 30px;
     }
 
@@ -136,8 +138,8 @@ html {
 
     .site-intro-container {
         width: 90%;
-        margin-left: 20px;
         padding-top: 30px;
+        align-items: center;
     }
 
     .site-intro-title {

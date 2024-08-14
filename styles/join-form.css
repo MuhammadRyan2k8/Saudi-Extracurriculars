@@ -63,14 +63,15 @@ form input:hover
     background-color: antiquewhite;
 }
 
-.input-container, .input-container-3
+.input-container-2, .input-container-3
 {
     display: flex;
 }
 
-.input-container-2
+.input-container-1
 {
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 form input::placeholder
@@ -118,16 +119,11 @@ form input:focus
 
 @media (max-width: 1000px) 
 {
-    .input-container-3
+    .input-container-1
     {
-        display: none;
+        display: grid;
+        grid-template-columns: 1fr;
     }
-
-    .input-container-2
-    {
-        display: flex;
-    }
-
 }
 
 @media (max-width: 700px) 

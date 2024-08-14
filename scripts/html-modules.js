@@ -9,7 +9,7 @@ class MyHeader extends HTMLElement
 
             
             <div class="header-left-section">
-                <img class="site-logo" src="pictures/logo.jpeg" alt="Site Logo">
+                <a href="index.html" ><img class="site-logo" src="pictures/logo.jpeg" alt="Site Logo"></a>
             </div>
             
 
