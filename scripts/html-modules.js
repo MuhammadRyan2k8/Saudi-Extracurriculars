@@ -15,7 +15,7 @@ class MyHeader extends HTMLElement
 
             <div class="header-middle-section">
                 <div class="header-middle-top">
-                    <p class="site-title">Saudi Extracurriculars</p>
+                    <a href="index.html" class="site-title">Saudi Extracurriculars</a>
                 </div>
 
                 <nav>

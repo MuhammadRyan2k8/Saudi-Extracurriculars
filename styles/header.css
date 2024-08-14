@@ -15,12 +15,13 @@
 
 
 .site-title {
+    text-decoration: none;
     font-size: 2rem;
     font-weight: 1000;
     margin: 0;
     margin-left: 10px;
     align-self: flex-start;
-    transition: all 0.5s;
+    color: black;
 }
 
 .site-logo {
