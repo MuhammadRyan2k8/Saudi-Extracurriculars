@@ -12,7 +12,7 @@ html {
 
 /* Parallax Sections */
 .parallax-1, .parallax-2, .parallax-3 {
-    height: 80vh;
+    height: 800px;
     background-position: center;
     background-size: cover;
     z-index: 0;
@@ -20,47 +20,72 @@ html {
 
 .parallax-1 {
     background-image: url('https://www.state.gov/wp-content/uploads/2019/04/Saudi-Arabia-2560x1248.jpg');
-    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.parallax-2 {
-    margin-top: -60vh;
-    height: 85vh;
+.parallax-2 { 
+    margin-top: -550px;
+    height: 900px;
     background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1938189982v2.jpg');
 }
 
 .parallax-3 {
-    margin-top: -108vh;
+    margin-top: -1150px;
     background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1938189982v2.jpg');
 }
 
 .section-1 {
-    height: 60vh;
+    height: 450px;
     background-color: white;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px 100px;
 }
 
+.section-1-title
+{
+    font-size: 3rem;
+    font-weight: 1000;
+    color: #11402F;
+}
+
+.section-1-content
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+}
+
+.section-1-content img 
+{
+    width: 100%;
+    border-radius: 10%;
+    transition: all 0.5s;
+}
+
+
 .section-2 {
-    height: 60vh;
+    height: 650px;
     background-color: white;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 10;
-    margin-top: 50vh;
+    margin-top: 480px;
 }
 
 .section-3 {
-    height: 60vh;
+    height: 500px;
     background-color: white;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
     position: relative;
     z-index: 10;
-    margin-top: 100vh;
+    margin-top: 1000px;
 }
 
 .site-intro-container {
@@ -176,4 +201,22 @@ html {
     {
         margin-top: 70px;
     }
+
+    .section-1 {
+        padding: 50px 30px;
+    }
+    
+    .section-1-title
+    {
+        font-size: 3rem;
+        font-weight: 1000;
+        margin-left: 10px;
+        color: #11402F;
+    }
+    
+    .section-1-content
+    {
+        grid-template-columns: 1fr 4fr 2fr 4fr 2fr 4fr 1fr;
+    }
+    
 }
