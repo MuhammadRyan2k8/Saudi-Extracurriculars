@@ -32,41 +32,97 @@ html {
 }
 
 .parallax-3 {
-    margin-top: -1150px;
+    margin-top: -1130px;
     background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1938189982v2.jpg');
 }
 
 .section-1 {
-    height: 450px;
+    height: 550px;
     background-color: white;
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     z-index: 10;
+}
+
+.section-1-picture-1, .section-1-picture-2, .section-1-picture-3
+{
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczOinFeprC8fWkB9-BBcupBcbQUysC-c31BES3ZNT_YQ7tvten3RVf2OhDZAmQDoWYTjkYkV6azQkWLN6LVXHIlkj59ozMWHfRtkB91GxK7jGupjEj4=w2400');
+    width: 450px;
+    height: 450px;
+    background-color: aliceblue;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 11;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.541);
+    transition: all 1s ease;
+}
+
+.section-1-picture-1:hover, .section-1-picture-2:hover, .section-1-picture-3:hover
+{
+    background-color: aliceblue;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    z-index: 11;
+    border-radius: 20%;
+    overflow: hidden;
+    box-shadow: 7px 7px 25px 5px rgba(0, 0, 0, 0.75);
+}
+
+.section-1-picture-1-content, .section-1-picture-2-content, .section-1-picture-3-content
+{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    padding: 50px 100px;
+    padding: 5% 0%;
+    margin-top: 67%;
+    width: 100%;
+    transition: all 0.5s ease;
+    background-color: #0000005e;
+    backdrop-filter: blur(10px);
 }
 
-.section-1-title
+.section-1-picture-1-content:hover, .section-1-picture-2-content:hover, .section-1-picture-3-content:hover
+{
+    margin-top: 48%;
+}
+
+.section-1-picture-1-1, .section-1-picture-2-1, .section-1-picture-3-1
 {
     font-size: 3rem;
-    font-weight: 1000;
-    color: #11402F;
+    font-weight: 600;
+    color: antiquewhite;
+    text-shadow: 3px 3px 5px black;
+    margin-bottom: 20px;
+    width: 90%;
+    align-self: center;
 }
 
-.section-1-content
+.section-1-picture-1-2, .section-1-picture-2-2, .section-1-picture-3-2
 {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
-}
-
-.section-1-content img 
-{
-    width: 100%;
-    border-radius: 10%;
+    font-size: 2rem;
+    font-weight: 600;
+    color: antiquewhite;
+    text-shadow: 3px 3px 5px black;
+    background-color: black;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
     transition: all 0.5s;
+    align-self: center;
+}
+
+.section-1-picture-1-2:hover, .section-1-picture-2-2:hover, .section-1-picture-3-2:hover
+{
+    background-color: #11402F;
+    border-radius: 15px;
 }
 
 
@@ -77,6 +133,28 @@ html {
     position: relative;
     z-index: 10;
     margin-top: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.section-2-content
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+}
+
+.section-2-content img 
+{
+    width: 100%;
+    border-radius: 22%;
+    transition: all 0.5s;
+}
+
+.section-2-content img:hover
+{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .section-3 {
@@ -157,6 +235,11 @@ html {
     .site-intro-description {
         font-size: 1.5rem;
     }
+
+    .section-1-picture-3
+    {
+        display: none;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -193,6 +276,12 @@ html {
         border-radius: 30px;
         box-shadow: 15px 15px black;
     }
+
+    .section-1-picture-2
+    {
+        display: none;
+    }
+
 }
 
 @media (max-width: 550px) 
@@ -217,6 +306,22 @@ html {
     .section-1-content
     {
         grid-template-columns: 1fr 4fr 2fr 4fr 2fr 4fr 1fr;
+    }
+
+    .section-1-picture-1
+    {
+        width: 325px;
+        height: 390px;
+    }
+
+    .section-1-picture-1-1
+    {
+        font-size: 2rem;
+    }
+
+    .section-1-picture-1-content:hover
+    {
+        margin-top: 67%;
     }
     
 }
