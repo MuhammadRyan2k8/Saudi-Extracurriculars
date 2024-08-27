@@ -52,7 +52,36 @@ class MyFooter extends HTMLElement
     {
         this.innerHTML = 
         `
-        
+        <section class="footer">
+
+            <img src="pictures/banner.jpeg" class="footer-banner">
+
+            <div class="footer-1">
+                <a href="https://tr.ee/Ol4rPd3TWC" > <img src="pictures/bl-instagram.jpeg"> </a>
+                <a href="https://www.linkedin.com/company/saudi-extracurriculars-for-students/" > <img src="pictures/bl-linkedin.png"> </a>
+                <a href="https://tr.ee/mq7EncQxxm" > <img src="pictures/bl-tiktok.jpg.jpg"> </a>
+            </div>
+
+            <div class="footer-2">
+                <div class="footer-2-1">
+                    Saudiextracurriculars@gmail.com
+                </div>
+                <div class="footer-2-1">
+                    Join
+                </div>
+                <div class="footer-2-1">
+                    Recent Events
+                </div>
+                <div class="footer-2-1">
+                    Apply
+                </div>
+            </div>
+
+            <a href="https://www.linkedin.com/in/muhammad-ryan1208" class="footer-3">
+                This Website Was Made By Muhammad Ryan
+            </a>
+
+        </section>
         `
     }
 }

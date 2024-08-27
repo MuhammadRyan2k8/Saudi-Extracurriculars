@@ -7,11 +7,16 @@ body {
     overflow-x: hidden;
 }
 
+.container
+{
+    overflow-x: hidden;
+}
+
 html {
     height: 100%;
 }
 
-.parallax-1, .parallax-2, .parallax-3 {
+.parallax-1, .parallax-2 {
     height: 800px;
     background-position: center;
     background-size: cover;
@@ -32,10 +37,6 @@ html {
 
 .parallax-2 { 
     height: 900px;
-    background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1938189982v2.jpg');
-}
-
-.parallax-3 {
     background-image: url('https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1938189982v2.jpg');
 }
 
@@ -93,10 +94,10 @@ html {
 .section-1-1-content
 {
     background-color: white;
+    position: absolute;
     height: 45%;
     width: 70%;
     margin-top: -10%;
-    position: absolute;
     z-index: 12;
     margin-left: 10%;
     padding: 5%;
@@ -161,58 +162,6 @@ html {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.section-3 {
-    height: auto;
-    background-color: white;
-    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
-    position: relative;
-    z-index: 10;
-}
-
-.section-3-picture
-{
-    width: 100%;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-.section-3-2
-{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    margin-left: 0px;
-    padding: 15px 0px;
-    margin-top: -5px;
-    background-color: #11402F;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-.section-3-2 img
-{
-    height: 70px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.section-3-3
-{
-    width: 100%;
-    padding: 30px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: black;
-}
-
-.section3-3-1
-{
-    font-size: 1.2rem;
-    color: white;
-    margin-bottom: 20px;
-    font-weight: 600;
-}
-
 .site-intro-container {
     padding-top: 50px;
     padding-bottom: 200px;
@@ -225,17 +174,22 @@ html {
 
 .site-intro-title {
     color: #11402F;
-    font-size: 5.5rem;
+    font-size: 7rem;
     font-weight: 1000;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .site-intro-description {
     color: #11402F;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 550;
-    text-shadow: 2px 2px 5px white;
-    margin-top: -30px;
+    text-shadow: 
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    margin-top: -60px;
+    margin-left: 100px;
 }
 
 .join-button {
@@ -346,5 +300,10 @@ html {
     }
     .parallax-1, .parallax-2, .parallax-3 {
         background-attachment:scroll;
+    }
+
+    .site-intro-description {
+        margin-left: 0px;
+        margin-top: -30px;
     }
 }
