@@ -54,7 +54,7 @@ class MyFooter extends HTMLElement
         `
         <section class="footer">
 
-            <img src="pictures/banner.png" class="footer-banner">
+            <img src="pictures/Banner.png" class="footer-banner">
 
             <div class="footer-1">
                 <a href="https://tr.ee/Ol4rPd3TWC" > <img src="pictures/bl-instagram.jpeg"> </a>

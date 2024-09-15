@@ -8,7 +8,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
@@ -20,54 +20,57 @@
 
     <section class="container">
 
+        <!-- Parallax Section -->
         <section class="parallax parallax-1">
             <div class="site-intro-container">
-
                 <h1 class="site-intro-title">
                     Saudi Extracurriculars For Students
                 </h1>
                 <p class="site-intro-description">
                     We make sure students can have easy access to extracurriculars around Saudi Arabia and take part in community service, out-of-school clubs, events, and programs. Our goal is to make a difference!
                 </p>
-                <a href="join-form.html" ><button class="join-button">Join Our Community</button></a>
-
+                <a href="join-form.html" class="join-button" >Join Our Community</a>
                 <div class="site-intro-spacer"></div>
             </div>
         </section>
 
+        <!-- Section with Articles -->
         <section class="section-1">
 
+            <!-- First Article -->
             <section class="section-1-1">
                 <section class="section-1-1-picture"></section>
                 <div class="section-1-1-content">
                     <div class="section-1-1-title">
                         We Help Build Our Youth
                     </div>
-                    <div class="section-1-1-button">
+                    <div class="section-1-1-button" onclick="Article1()">
                         Read More
                     </div>
                 </div>
             </section>
 
+            <!-- Second Article -->
             <section class="section-1-1">
                 <section class="section-1-2-picture"></section>
                 <div class="section-1-1-content">
-                    <div class="section-1-1-title">
+                    <div class="section-1-1-title-small">
                         Learn about volunteering opportunities
                     </div>
-                    <div class="section-1-1-button">
+                    <div class="section-1-1-button" onclick="navigateToArticle('Learn about volunteering opportunities')">
                         Read More
                     </div>
                 </div>
             </section>
 
+            <!-- Third Article -->
             <section class="section-1-1">
                 <section class="section-1-3-picture"></section>
                 <div class="section-1-1-content">
                     <div class="section-1-1-title">
                         Becoming a Global Citizen
                     </div>
-                    <div class="section-1-1-button">
+                    <div class="section-1-1-button" onclick="navigateToArticle('Becoming a Global Citizen')">
                         Read More
                     </div>
                 </div>
@@ -75,16 +78,17 @@
 
         </section>
 
-        <section class="parallax parallax-2">
-        
-        </section>
+        <!-- Another Parallax Section -->
+        <section class="parallax parallax-2"></section>
 
-        <My-Footer></My-Footer>
+        <!-- Footer -->
+        <my-footer></my-footer>
 
     </section>
 
-    <script src="scripts/main.js" ></script>
-    <script src="scripts/html-modules.js" ></script>
+    <script src="scripts/article.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/html-modules.js"></script>
 </body>
 
 </html>

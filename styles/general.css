@@ -1,7 +1,7 @@
 body {
     margin: 0;
     margin-top: 140px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Playpen Sans" ,'Roboto', sans-serif;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -18,8 +18,6 @@ html {
 
 .parallax-1, .parallax-2 {
     height: 800px;
-    background-position: center;
-    background-size: cover;
     z-index: 0;
     background-attachment: fixed;
     background-position: center;
@@ -28,11 +26,12 @@ html {
 }
 
 .parallax-1 {
-    background-image: url('https://www.state.gov/wp-content/uploads/2019/04/Saudi-Arabia-2560x1248.jpg');
+    background-image: url('https://i0.wp.com/www.touristsaudiarabia.com/wp-content/uploads/2023/06/Saudi-Arabia-Riyadh.jpg?fit=2500%2C1669&ssl=1');
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
+    background-position: top;
 }
 
 .parallax-2 { 
@@ -100,16 +99,22 @@ html {
     margin-top: -10%;
     z-index: 12;
     margin-left: 10%;
-    padding: 5%;
+    padding: 3%;
     border-radius: 2px;
 }
 
-.section-1-1-title
+.section-1-1-title, .section-1-1-title-small
 {
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 1000;
+    margin-top: -10px;
     height: 45%;
     overflow: hidden;
+}
+
+.section-1-1-title-small
+{
+    font-size: 1.5rem;
 }
 
 .section-1-1-button
@@ -163,8 +168,8 @@ html {
 }
 
 .site-intro-container {
-    padding-top: 50px;
-    padding-bottom: 200px;
+    margin-top: -50px;
+    padding-bottom: 100px;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -173,21 +178,16 @@ html {
 }
 
 .site-intro-title {
-    color: #11402F;
+    color: #ffffff;
     font-size: 7rem;
     font-weight: 1000;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .site-intro-description {
-    color: #11402F;
+    color: #ffffff;
     font-size: 3rem;
-    font-weight: 550;
-    text-shadow: 
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white;
+    font-weight: 1000;
     margin-top: -60px;
     margin-left: 100px;
 }
@@ -195,15 +195,18 @@ html {
 .join-button {
     margin-top: 9px;
     margin-left: 7px;
-    background-color: black;
+    background-color: white;
     border-width: 0px;
-    color: beige;
-    width: 275px;
-    padding: 20px;
-    font-size: 1.4rem;
-    font-weight: 600;
+    color: black;
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: fit-content;
+    font-size: 1.75rem;
+    font-weight: 1000;
     border-radius: 10px;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 .join-button:hover {
@@ -214,6 +217,7 @@ html {
     box-shadow: 7px 9px black;
     margin-bottom: 9px;
     margin-right: 7px;
+    color: white;
     transition: all 0.5s;
 }
 
@@ -243,26 +247,29 @@ html {
     .site-intro-container {
         width: 90%;
         padding-top: 30px;
-        align-items: center;
     }
 
     .site-intro-title {
-        font-size: 3rem;
+        font-size: 2.75rem;
+        margin-bottom: 80px;
+        margin-top: 60px;
         text-align: center;
     }
 
     .site-intro-description {
         font-size: 1.5rem;
+        margin-left: 0px;
         text-align: center;
     }
 
     .join-button {
-        width: 200px;
+        width: 300px;
         padding: 15px;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin-left: 0px;
         margin-top: 0px;
         align-self: center;
+        text-align: center;
     }
 
     .join-button:hover {
@@ -274,7 +281,7 @@ html {
     }
 }
 
-@media (max-width: 550px) 
+@media (max-width: 600px) 
 {
     body
     {
@@ -288,6 +295,11 @@ html {
     .section-1-1-title
     {
         font-size: 1.8rem;
+    }
+
+    .section-1-1-title-small
+    {
+        font-size: 1.25rem;
     }
 
     .section-2-content

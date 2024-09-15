@@ -128,7 +128,8 @@ nav a:hover
 
 .footer-banner
 {
-    width: 100%;
+    width: 100vw;
+    height: auto;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     background-image: url('https://lh3.googleusercontent.com/pw/AP1GczMUHQnhGzaoKq-SxjDIw2mk1bAFDdbTb7qy5vKItvOURuMBz4KSV8rGMEHi8dBnZ9IWFNrXxoKeZLdKHp1CY-zl1hw73aMzN2iNb79NaieeuI-7cWE=w2400');
 }
@@ -196,7 +197,7 @@ nav a:hover
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .header
     {
         height: 80px;
