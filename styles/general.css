@@ -1,7 +1,7 @@
 body {
     margin: 0;
     margin-top: 140px;
-    font-family: "Playpen Sans" ,'Roboto', sans-serif;
+    font-family: Arial ,"Playpen Sans" ,'Roboto', sans-serif;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -81,7 +81,7 @@ html {
 
 .section-1-2-picture
 {
-    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczNBYhFWGuUl3iBsU0w4INhlW9XZrTnIlubT8anMmPdiNWRdK1wKnknYLpvpJkREucbV6-3tAeANSSS5Qa6rhwxjKfdzOeF1TofHO2qMLxwecXdA018=w2400');
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczNGIiP5j3y5ney3bRrI8ZAypdewPA_41w-intzd5AVRRP2dMl36cNpyqHKU6wOjviTc2ACvSiW_Ni05LX9grmq2ijolFiC0CBBSn5-XoFTrN5Tdo0Q=w2400');
 }
 
 .section-1-3-picture
