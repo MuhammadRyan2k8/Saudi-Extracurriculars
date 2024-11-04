@@ -40,7 +40,7 @@ body {
     justify-content: flex-start;
 }
 
-.member-1-picture, .member-2-picture, .member-3-picture, .member-4-picture
+.member-1-picture, .member-2-picture, .member-3-picture, .member-4-picture, .member-5-picture
 {
     width: 100%;
     height: 350px;
@@ -61,9 +61,13 @@ body {
 
 .member-4-picture
 {
-    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczMViO8f33n4fm582jmZvahj1rxCr4MJb8UhMqrTlM7xqY1MlPnfv3SSX9NtqcWHEWGrXG93IVG9wmmP90jfNK_EabFinmsniqo93UMXValthPGQMW0=w2400')
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczMByDFO8vhVye_NNlVkwm_pK8myVmRgZnLxk_VHzEPqqR5sltmgQOtZMgtQYLuOkS5qKR6y-l6UCGvLsXieg_NDsLg8cd85VqIHhHskYWqZ0HAgWtI=w2400')
 }
 
+.member-5-picture
+{
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczMViO8f33n4fm582jmZvahj1rxCr4MJb8UhMqrTlM7xqY1MlPnfv3SSX9NtqcWHEWGrXG93IVG9wmmP90jfNK_EabFinmsniqo93UMXValthPGQMW0=w2400')
+}
 
 .member-1-content
 {
@@ -80,7 +84,7 @@ body {
 
 .member-1-title
 {
-    font-size: 1.6rem;
+    font-size: 1.3vw;
     font-weight: 600;
     height: 85px;
     overflow: hidden;
@@ -104,6 +108,10 @@ body {
     {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    .member-1-title
+    {
+        font-size: 1.5vw;
+    }
 
 }
 
@@ -113,12 +121,20 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 100px;
     }
+    .member-1-title
+    {
+        font-size: 1.7vw;
+    }
 }
 
 @media (max-width: 1100px) {
     .section-1 
     {
         column-gap: 40px;
+    }
+    .member-1-title
+    {
+        font-size: 2vw;
     }
 }
 
@@ -136,6 +152,10 @@ body {
         grid-template-columns: 1fr 1fr;
         column-gap: 40px;
     }
+    .member-1-title
+    {
+        font-size: 3vw;
+    }
 }
 
 @media (max-width: 650px) {
@@ -152,6 +172,10 @@ body {
     {
         width: 100%;
     }
+    .member-1-title
+    {
+        font-size: 4vw;
+    }
 }
 
 @media (max-width: 500px) {
@@ -159,5 +183,9 @@ body {
     {
         margin-top: 0px;
         width: 80vw;
+    }
+    .member-1-title
+    {
+        font-size: 6vw;
     }
 }

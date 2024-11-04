@@ -27,11 +27,40 @@ function Article1()
 {
     let articleTitle = `We Help Build Our Youth`
 
-    let articleText = `<br>Upcoming generations are the future of our world, the focus of our goals, and the main source of success going forward. It is transparent that Saudi Arabia has put its youngsters as a priority in their vision of 2030 by providing them with the best opportunities that help build and shape their characters, and through SEFS students will be able to access these opportunities a lot easier.
+    let articleText = 
+    `<br><br>Upcoming generations are the future of our world, the focus of our goals, and the main source of success going forward. It is transparent that Saudi Arabia has put its youngsters as a priority in their vision of 2030 by providing them with the best opportunities that help build and shape their characters, and through SEFS students will be able to access these opportunities a lot easier.
     <br><br>The easy accessibility of these opportunities, as well as providing new opportunities not seen before, aligns SEFS goals along with Saudi Arabia’s to set the building blocks of strong, independent youth that will be able to lead onward. It is our goal to empower and develop young people to be the best versions of themselves. 
     <br><br>Not only are we dedicating this organization to provide help; we are planning to make an impact that lasts till the youngsters are not young anymore and are one of the greatest people that will be known in the future. 
     <br><br>Everyone should have a vision of who they would like to become as they grow older. SEFS will hand them the helping hand they need into making their dreams come true, allowing a brighter sight that their hopes can turn into reality.
-    <br><br>To conclude, SEFS believes that youth are the future of our world and play a crucial part in the vision of Saudi Arabia; therefore, we would like to lend a hand by providing the youngsters an accessible way of providing opportunities to help them them build and become the best versions of them selves that they could be for the rest of their lives.`
+    <br><br>To conclude, SEFS believes that youth are the future of our world and play a crucial part in the vision of Saudi Arabia; therefore, we would like to lend a hand by providing the youngsters an accessible way of providing opportunities to help them them build and become the best versions of them selves that they could be for the rest of their lives.
+    `
+    navigateToArticle(articleTitle, articleText)
+}
 
+function Article2()
+{
+    let articleTitle = `Learn About Volunteering Opportunities`
+
+    let articleText = 
+    `<br><br>Have you ever looked for volunteering opportunities but don’t know where to start? Or found them yet didn’t have time to sign up? Then you have found the right place to overcome both of these problems.
+    <br><br>Many students are in need to volunteer to either complete a certain amount of volunteering hours before graduating, or having these volunteering hours as an extracurricular to apply for colleges nationally and world wide. 
+    <br><br>A specialty of SEFS is giving students the volunteering opportunities at an earlier period so they can sign up on time, provide a brief explanation on what is needed from them, and shares them in the most accessible way possible. 
+    <br><br>It is ensured that these volunteering opportunities are official and rewards the students with a certificate or certain amount of hours on the government platform. This way, the students do not have to worry about the possibility of it being a scam.
+    <br><br>To summarise, it is one of SEFS expertise to share volunteering opportunities on time, including information about it, and with easy reachability that are valid and official for those students in need of the volunteering hours.
+    `
+    navigateToArticle(articleTitle, articleText)
+}
+
+function Article3()
+{
+    let articleTitle = `We Help Build Our Youth`
+
+    let articleText = 
+    `<br><br>Upcoming generations are the future of our world, the focus of our goals, and the main source of success going forward. It is transparent that Saudi Arabia has put its youngsters as a priority in their vision of 2030 by providing them with the best opportunities that help build and shape their characters, and through SEFS students will be able to access these opportunities a lot easier.
+    <br><br>The easy accessibility of these opportunities, as well as providing new opportunities not seen before, aligns SEFS goals along with Saudi Arabia’s to set the building blocks of strong, independent youth that will be able to lead onward. It is our goal to empower and develop young people to be the best versions of themselves. 
+    <br><br>Not only are we dedicating this organization to provide help; we are planning to make an impact that lasts till the youngsters are not young anymore and are one of the greatest people that will be known in the future. 
+    <br><br>Everyone should have a vision of who they would like to become as they grow older. SEFS will hand them the helping hand they need into making their dreams come true, allowing a brighter sight that their hopes can turn into reality.
+    <br><br>To conclude, SEFS believes that youth are the future of our world and play a crucial part in the vision of Saudi Arabia; therefore, we would like to lend a hand by providing the youngsters an accessible way of providing opportunities to help them them build and become the best versions of them selves that they could be for the rest of their lives.
+    `
     navigateToArticle(articleTitle, articleText)
 }

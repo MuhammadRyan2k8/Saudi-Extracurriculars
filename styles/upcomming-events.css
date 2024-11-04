@@ -36,12 +36,22 @@ body {
     justify-content: flex-start;
 }
 
-.event-1-picture
+.event-1-picture, .event-2-picture
 {
     width: 100%;
     height: 350px;
-    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczPZuOtjb11nvmXseP2hX4Dh1huMntuZzmE2Vuap6mAddQJFdXoKQFDXLMAM6f2LSgKnv4Fs2eP6v5824amED37x8etf-dhgbiCL0o4X6oUKqjdm0Uk=w2400');
     background-size: cover;
+    background-position: center;
+}
+
+.event-1-picture
+{
+    background-image: url('https://info.brillantmont.ch/hs-fs/hubfs/18-19%20-Term-1/School%20year%20photo%20selection/MUN/MUN-experience-Brillantmont-International-School.jpg?width=1920&name=MUN-experience-Brillantmont-International-School.jpg');
+}
+
+.event-2-picture
+{
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczPZuOtjb11nvmXseP2hX4Dh1huMntuZzmE2Vuap6mAddQJFdXoKQFDXLMAM6f2LSgKnv4Fs2eP6v5824amED37x8etf-dhgbiCL0o4X6oUKqjdm0Uk=w2400');
 }
 
 
