@@ -53,14 +53,14 @@ function Article2()
 
 function Article3()
 {
-    let articleTitle = `We Help Build Our Youth`
+    let articleTitle = `Becoming a global citizen`
 
     let articleText = 
-    `<br><br>Upcoming generations are the future of our world, the focus of our goals, and the main source of success going forward. It is transparent that Saudi Arabia has put its youngsters as a priority in their vision of 2030 by providing them with the best opportunities that help build and shape their characters, and through SEFS students will be able to access these opportunities a lot easier.
-    <br><br>The easy accessibility of these opportunities, as well as providing new opportunities not seen before, aligns SEFS goals along with Saudi Arabia’s to set the building blocks of strong, independent youth that will be able to lead onward. It is our goal to empower and develop young people to be the best versions of themselves. 
-    <br><br>Not only are we dedicating this organization to provide help; we are planning to make an impact that lasts till the youngsters are not young anymore and are one of the greatest people that will be known in the future. 
-    <br><br>Everyone should have a vision of who they would like to become as they grow older. SEFS will hand them the helping hand they need into making their dreams come true, allowing a brighter sight that their hopes can turn into reality.
-    <br><br>To conclude, SEFS believes that youth are the future of our world and play a crucial part in the vision of Saudi Arabia; therefore, we would like to lend a hand by providing the youngsters an accessible way of providing opportunities to help them them build and become the best versions of them selves that they could be for the rest of their lives.
+    `<br><br>In this interconnected world, most students recognize the significance that everyone is a part of a large community; involving the embracement of our responsibility towards the world and humanity. This is one reason that students tend to make organizations such as SEFS.
+    <br><br>Encouraging students to be open-minded about the different environments, perspectives, and experiences is one of SEFS main priorities. It is a way to connect and solidate everyone to create a safe community for students.
+    <br><br>It is not only about raising awareness but also about taking action in trying to make this world a better place. We give insight on the path that can be taken to contribute to the global community in meaningful ways and making more sustainable lifestyle choices.
+    <br><br>Global issues are taken to understand the critical role of everyone in the world and see what can be offered to solve these issues and create a peaceful community for everyone and themselves. 
+    <br><br>As a result, it is important to acknowledge the different roles that can be taken to act and develop solution to global issues and form an upgraded environment that unites everyone that have the same beliefs. 
     `
     navigateToArticle(articleTitle, articleText)
 }
